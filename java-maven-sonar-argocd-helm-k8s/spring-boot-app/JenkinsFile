@@ -4,7 +4,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 // Corrected the spacing and stage name to be more consistent
-                git credentialsId: 'jenkins_thirsha', url: 'https://github.com/Gowthams1999-commits/Jenkins-Zero-To-Hero-gow.git'
+                git credentialsId: 'jenkins_thirsha', url: 'https://github.com/Gowthams1999-commits/Jenkins-Zero-To-Hero-gow.git' branch: 'main'
             }
         }
         
